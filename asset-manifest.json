@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MovieTicketBook/static/css/main.9c71e3e2.css",
+    "main.js": "/MovieTicketBook/static/js/main.57fb3784.js",
+    "static/js/787.8666e7c6.chunk.js": "/MovieTicketBook/static/js/787.8666e7c6.chunk.js",
+    "index.html": "/MovieTicketBook/index.html",
+    "main.9c71e3e2.css.map": "/MovieTicketBook/static/css/main.9c71e3e2.css.map",
+    "main.57fb3784.js.map": "/MovieTicketBook/static/js/main.57fb3784.js.map",
+    "787.8666e7c6.chunk.js.map": "/MovieTicketBook/static/js/787.8666e7c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c71e3e2.css",
+    "static/js/main.57fb3784.js"
+  ]
+}
