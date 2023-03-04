@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import cardData from "./data.json";
+import Cards from "./components/cards";
+import Form from "./components/form"
+import Summary from "./components/summary"
+
 
 function App() {
+  const cards = cardData.map((item) => {
+    return <Cards
+              key={item.show.id}
+              {...item}
+          />
+  });
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element = {cards}/>
+      <Route path="/form" element = {<Form />}/>
+      <Route path="/summary" element = {<Summary />} />
+    </Routes>
+  </BrowserRouter>
   );
 }
 

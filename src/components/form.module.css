@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+  }
+.container{
+    padding: 9rem;
+}
+ .container section{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    background-color:blanchedalmond;
+    padding: 1rem;
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+.container section h1{
+    font-size: 2.7rem;
+}
+.container section h3{
+    font-size: 1.5rem;
+}
+.container section .about{
+    margin-bottom:2rem ;
+}
+.field{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.field > input{
+    font-size: 1.2rem;
+}
+.field > button{
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.3rem;
+    cursor: pointer;
+    background: white;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.field > button:hover{
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
